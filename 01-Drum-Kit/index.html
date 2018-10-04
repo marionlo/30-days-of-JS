@@ -7,18 +7,72 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Javascript Drum Kit</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
+    <!--START CONTENT-->
     <div class="content">
       <!--START HEADER-->
       <header>
-        <h1>Drum Kit made with Vanilla Javascript - #JavaScript30</h1>
-        <h2>Press the keys on your keyboard to play</h2>
+        <h1>Drum Kit made with Vanilla JavaScript - #JavaScript30</h1>
+        <h2>Press the keys on your keyboard (azerty) to play</h2>
       </header>
       <!--END HEADER-->
+
+      <!--START DRUMKIT-->
+      <div class="keys">
+          <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+          </div>
+
+          <div data-key="90" class="key">
+            <kbd>Z</kbd>
+            <span class="sound">hihat</span>
+          </div>
+
+          <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">kick</span>
+          </div>
+
+          <div data-key="81" class="key">
+            <kbd>Q</kbd>
+            <span class="sound">openhat</span>
+          </div>
+
+          <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">boom</span>
+          </div>
+
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">ride</span>
+          </div>
+
+          <div data-key="88" class="key">
+            <kbd>X</kbd>
+            <span class="sound">snare</span>
+          </div>
+
+          <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">tom</span>
+          </div>
+
+          <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+          </div>
+
+
+      </div>
+
+        <!--END DRUMKIT-->
     </div>
+
+    <!--END CONTENT-->
   <script src="app.js"></script>
   </body>
 </html>
