@@ -38,7 +38,12 @@ header {
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
     margin-top: 30px;
     color: #8c8c88;
+    transition:all 0.07s;
   }
+
+.playing {
+    transform:scale(1.1);
+}
 
   kbd {
     font-size: 40px;
@@ -61,3 +66,45 @@ header {
   /*
  * Responsiveness
  */
+
+@media screen and (max-width: 460px){
+
+    .keys {
+        width: 250px;
+        min-height: 290px;
+        max-height: 290px;
+        padding: 2px 4px 2px;
+    }
+
+    .key {
+        width: 55px;
+        height: 55px;
+    }
+    
+    h1, h2 {
+        font-size: 18px;
+    }
+    
+    kbd {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width: 460px) and (max-width: 700px) {
+    .keys {
+        width: 400px;
+        min-height: 420px;
+        
+    }
+
+    .key {
+        width: 90px;
+        height: 90px;
+    }
+    
+     h1, h2 {
+        font-size: 24px;
+    }
+
+  }
