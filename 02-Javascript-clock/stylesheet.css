@@ -53,3 +53,21 @@ box-shadow: 3px 6px 15px 0px rgba(0,0,0,0.75);
 box-shadow: 3px 6px 15px 0px rgba(0,0,0,0.75);
 
 }
+
+/*
+ * Responsiveness
+ */
+
+@media screen and (max-width: 460px){
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .clock {
+    width: 11rem;
+    height: 11rem;
+    border: 8px solid white;
+  }
+
+}
