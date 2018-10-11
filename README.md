@@ -5,3 +5,4 @@ Here are my different projects in Vanilla Javascript, made during my #Javascript
 
 ## Projects
 * [Project 1. Drum kit](./01-Drum-Kit)
+* [Project 2. Javascript Clock](./02-Javascript-clock)
